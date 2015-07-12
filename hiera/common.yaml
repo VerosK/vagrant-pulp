@@ -1,0 +1,4 @@
+---
+no_data: here
+
+pulp::pulp_server_host: "pulp.example.org"

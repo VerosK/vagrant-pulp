@@ -1,0 +1,6 @@
+[submodule "modules/pulp"]
+	path = modules/pulp
+	url = git@github.com:VerosK/puppet-pulp.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
