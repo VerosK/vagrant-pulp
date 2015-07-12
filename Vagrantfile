@@ -33,7 +33,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     puppet.options = "--verbose --pluginsync"
   end
 
-#  config.vm.provision :shell, :path => "provision/finalize.sh"
+  config.vm.provision :shell, :path => "setup-mirror.sh"
 
 end
 
